@@ -1,0 +1,52 @@
+{
+	"id": "e5258c25-d1ca-dabe-cd5f-e24d6725e232",
+	"name": "20_laravel_redis",
+	"description": "",
+	"order": [
+		"2e477c99-5a08-9207-421c-3c1b0ecf1b9c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1654457772763,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2e477c99-5a08-9207-421c-3c1b0ecf1b9c",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/blogs/update/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e5258c25-d1ca-dabe-cd5f-e24d6725e232",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1654457781485,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"title\" : \"Update title is here\",\n\t\"sub_header\" : \"Updat sub header\",\n\t\"content\" : \"Update content\"\n}"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+################# tutorail 1 ######################
+step : 01:--
+
+
+-> redis server start using below command:
+composer require predis/predis
+php artisan serve
+redis-server.exe
+php artisan migrate
+php artisan db:seed --class=BlogSeeder
+
+Redis learn bloag:
+https://www.honeybadger.io/blog/laravel-caching-redis/
+Importent Issue solve Stackoverflow url: 
+https://stackoverflow.com/questions/16441774/no-connection-could-be-made-because-the-target-machine-actively-refused-it-larav

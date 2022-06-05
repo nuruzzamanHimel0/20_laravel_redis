@@ -1,0 +1,36 @@
+{
+	"variables": [],
+	"info": {
+		"name": "20_laravel_redis",
+		"_postman_id": "e5258c25-d1ca-dabe-cd5f-e24d6725e232",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "update",
+			"request": {
+				"url": "http://127.0.0.1:8000/blogs/update/1",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\" : \"Update title is here\",\n\t\"sub_header\" : \"Updat sub header\",\n\t\"content\" : \"Update content\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
